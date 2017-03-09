@@ -1,7 +1,7 @@
-*.ss~
-*.ss#*
-.#*.ss
+# Vi(m) artifacts
+*.swp
 
-*.scm~
-*.scm#*
-.#*.scm
+# Emacs artifacts
+*~
+\#*
+.\#*
