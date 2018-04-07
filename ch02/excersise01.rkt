@@ -74,3 +74,17 @@
 (define (total-profit people)
   (- (* people 5)
      (+ (* people 0.5) 20)))
+
+;; Exc 2.4.1
+; (+ (10)20)
+; (10 + 20) should be:
+;(+ 10 20)
+
+;(+ +)
+; Contract violation
+
+;; Exc 2.4.2
+;; (define (f 1)
+;;   (+ x 10))
+(define (f10 x)
+  (+ x 10))
